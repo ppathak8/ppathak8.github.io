@@ -1,0 +1,133 @@
+* {
+  font-family: Verdana,Tahoma,Arial,sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size:x-large;
+  text-align:center;
+}
+
+#callout{
+  padding: 20px 5px 5px 55px;
+  border: none;
+  margin: none;
+  font-size: 44px;
+  font-style: italic;
+  font-family: Verdana;
+}
+
+#wrapper
+{
+  max-width: 1020px;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  color: white;
+    /* Rounded corner stuff starts here */
+  background-color: #215283;
+  border-radius: 5px;    
+  box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+}
+
+#maincolumn {
+  background-color: #E8E8E8;
+  color: black;
+  font-size: 14px;
+  padding: 20px 20px 20px 20px;
+  padding-bottom: 20%;
+  margin-bottom: -20%;
+ }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1C63AB;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+}
+
+nav ul li a {
+    display: block;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #2578CB;
+}
+
+nav ul li.active a{
+  background-color: #2578CB;
+}
+
+
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+
+body {
+  background:#000 url(stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+
+
