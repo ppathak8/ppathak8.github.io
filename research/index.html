@@ -29,42 +29,15 @@
 			</div>	
 			<div id="maincolumn">
 			
-			<p> My primary research interest is Astronomical instrumentation with emphasis on exoplanet science. Currently I am working on one of the modules of <a href='http://www.naoj.org/Projects/SCEXAO/'><i>SCExAO</i></a> instrument, which is a high-contrast imaging instrument for direct detection of exoplanets at Subaru telescope. 
-			 
-			</p>
+			<p> My primary research interest is Astronomical instrumentation with emphasis on exoplanet science. <br>
 			<p>
-				My current research involves active on-sky correction of residual atmospheric dispersion for high contrast coronagraphy.
+			Currently, I am involved in simulating the performance of the High-contrast Imaging 
+			(HCI) modes of the <a href='http://metis.strw.leidenuniv.nl/'><i>METIS</i></a> instrument.  
+			In the framework of METIS I co-developed a general purpose HCI simulator called <a href='https://github.com/vortex-exoplanet/HEEPS'><i>HEEPS</i></a> (High-contrast End-to-End Performance Simulator). 
+	
+			</p>	
+			Previously, I also worked on one of the modules of <a href='http://www.naoj.org/Projects/SCEXAO/'><i>SCExAO</i></a> instrument, which is a high-contrast imaging instrument for direct detection of exoplanets at Subaru telescope. For my PhD thesis, I worked on active on-sky closed-loop correction of residual atmospheric dispersion for high contrast coronagraphy.
 			</p>
-			
-			<h3>Motivation:</h3>
-			
-			<p>
-				For direct detection of habitable exoplanets, located at a small angular separation from the host star, it is crucial to employ small inner working angle (IWA) coronagraphs that efficiently suppress starlight. These coronagraphs, in turn, require careful control of the wavefront which directly impacts their performance. For ground-based telescopes, atmospheric refraction is also an important factor, since it results in a smearing of the PSF, that can no longer be efficiently	suppressed by the coronagraph. Traditionally, atmospheric refraction is compensated for by an atmospheric dispersion compensator (ADC). ADC control relies on an a priori model of the atmosphere whose parameters are solely based on the pointing of the telescope, which can result in imperfect compensation. For a high-contrast instrument like the SCExAO system, which employs very small IWA coronagraphs, refraction-induced smearing of the PSF has to be less than 1 mas in the science band for optimum performance.
-			</p>
-			<br>
-
-			<table align="center">	
-			<h3>Solution:</h3>
-			<tr>
-				<td width="50%">
-				<p>
-					The concept behind the measurement of atmospheric refraction is explained using schematic on the right. It
-					features a broadband PSF with conveniently placed symmetric off-axis diffraction features
-					(speckles) and shows how these are affected by the presence of refraction. With no refraction (corresponding to pointing at	zenith), the images at all wavelengths will radiate from a point
-					that coincides with the PSF core (photocenter)(cf. Figure (a)). Unlike the core of the PSF, off-axis diffraction features appear spectrally dispersed, with the shortest wavelengths closer to the center of
-					the image (cf. Figure (a)). When affected by residual differential refraction, the images at different wavelengths no longer radiate from a point coinciding with the PSF core (cf. Figure (b)), but from a point that we will call the radiation center, offset from the PSF core. 
-				</p>
-				</td>
-				<td width="50%" align=left;>
-					<img src='schematic.png' style="max-width:100%;height:auto;">
-				</td>
-			</tr>
-			</table>
-			<p>There is direct relationship between amount dispersion to the deviation of radiation center from PSF core. So by measuring the distance between the radiation center and the PSF core, one can directly	estimate the amount of residual dispersion.</p>
-			<p>By using adaptive speckle grid generated using deformable mirror with sufficiently large number of actuators, we can accurately measure the residual atmospheric	dispersion and subsequently correct it in a close loop manner to > 1 mas in the H-band.
-			</p>
-
-
 
 			</div>		
 				
